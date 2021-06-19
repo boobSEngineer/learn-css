@@ -25,19 +25,39 @@
 }
 
 .header {
-    align-items: center;
-    background-color: #d43c3c;
+    background-color: #ffffff;
 }
 
 .header_top {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.header_bottom {
+    padding: 15px 0;
+}
+
+.header_bottom .nav{
+    margin: 0;
+    font-size: 16px;
 }
 
 .logo {
     font-size: 36px;
     font-weight: 700;
     color: #66C05D;
+    display: flex;
+    align-items: center;
+}
+
+.logo_img {
+    display: block;
+    width: 80px;
+    height: 80px;
+    background-image: url(../../assets/logo.svg);
+    margin-right: 10px;
 }
 
 .info span {
@@ -49,5 +69,19 @@
     border: 2px solid #66C05D ;
     border-radius: 20px;
     padding: 10px 15px;
+    margin-left: 20px;
+    background-color: transparent;
+    transition: 0.2s ease;
+    cursor: pointer;
 
+}
+
+.info button:hover{
+    background-color: #66C05D;
+}
+
+hr {
+    border: none;
+    background-color: #e5e5e5;
+    height: 1px;
 }
