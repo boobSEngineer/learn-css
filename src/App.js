@@ -1,13 +1,14 @@
 import './App.css';
 import Header from "./components/Header/Header";
 import Sale from "./components/Sale/Sale";
+import Content from "./components/Content/Content";
 
 function App() {
     return (
         <>
-            <h1>HeHEHehEHEhe</h1>
             <Header/>
             <Sale/>
+            <Content/>
         </>
     );
 }

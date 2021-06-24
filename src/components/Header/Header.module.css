@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     list-style-type: none;
-    padding-left: 0;
+    padding: 4px 0;
 }
 
 .wrapper {
@@ -15,8 +15,8 @@
 .bg_white {}
 
 .nav li {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .nav li a {
@@ -26,6 +26,7 @@
 
 .header {
     background-color: #ffffff;
+    padding-top: 10px;
 }
 
 .header_top {
@@ -44,12 +45,19 @@
     font-size: 16px;
 }
 
+.header_bottom .nav li{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 .logo {
     font-size: 36px;
     font-weight: 700;
     color: #66C05D;
     display: flex;
     align-items: center;
+    margin-right: 30px;
+    letter-spacing: 4px;
 }
 
 .logo_img {

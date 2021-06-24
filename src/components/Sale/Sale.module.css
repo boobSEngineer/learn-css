@@ -1,7 +1,7 @@
 .banner {
     background-image: url(../../assets/bg.png);
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 171px;
+    padding-bottom: 150px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -11,6 +11,8 @@
 .banner p {
     margin-bottom: 50px;
     max-width: 315px;
+    line-height: 1.5;
+
 }
 
 .btn {
@@ -19,10 +21,17 @@
     font-size: 14px;
     border: 2px solid #ffffff ;
     border-radius: 20px;
-    padding: 10px 15px;
+    padding: 10px 45px;
+    transition: 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #ffffff;
+    color: #333333;
 }
 
 .title {
     font-size: 48px;
     font-weight: 700;
+    margin-bottom: 40px;
 }
