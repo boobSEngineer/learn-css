@@ -1,0 +1,19 @@
+.footer_top {
+
+}
+
+.footer_bottom {
+    display: flex;
+    justify-content: space-between;
+    color: #828282;
+    padding: 15px 0;
+}
+
+.footer_bottom p {
+    margin: 0px;
+}
+
+.footer_bottom a {
+    color: #828282;
+    text-decoration: none;
+}
