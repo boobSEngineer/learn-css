@@ -7,7 +7,7 @@ import mail from '../../assets/mail.svg'
 
 const Content = (props) => {
     return (
-        <>
+        <section className={c.catalog}>
             <div className={c.wrapper}>
                 <div className={c.grid}>
                     <div className={[c.grid_item, c.grid_item_title].join(" ")}>
@@ -80,7 +80,7 @@ const Content = (props) => {
                 </div>
 
             </div>
-        </>
+        </section>
     )
 }
 
