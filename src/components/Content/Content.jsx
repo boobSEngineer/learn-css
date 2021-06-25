@@ -17,7 +17,7 @@ const Content = (props) => {
                         <img src={car} alt="Car"/>
                     </div>
 
-                    <div className={[c.grid_item, c.grid_item_01].join(" ")}>
+                    <div className={[c.grid_item, c.grid_item_product].join(" ")}>
                         <div className={c.bg_white}>
                             <div className={c.thumb}>
                                 <img src={product} alt="Product"/>
@@ -27,7 +27,7 @@ const Content = (props) => {
                             <a className={c.grid_btn} href="#">Купить</a>
                         </div>
                     </div>
-                    <div className={[c.grid_item, c.grid_item_02].join(" ")}>
+                    <div className={[c.grid_item, c.grid_item_product].join(" ")}>
                         <div className={c.bg_white}>
                             <div className={c.thumb}>
                                 <img src={product} alt="Product"/>
@@ -37,7 +37,7 @@ const Content = (props) => {
                             <a className={c.grid_btn} href="#">Купить</a>
                         </div>
                     </div>
-                    <div className={[c.grid_item, c.grid_item_03].join(" ")}>
+                    <div className={[c.grid_item, c.grid_item_product].join(" ")}>
                         <div className={c.bg_white}>
                             <div className={c.thumb}>
                                 <img src={product} alt="Product"/>
@@ -47,7 +47,7 @@ const Content = (props) => {
                             <a className={c.grid_btn} href="#">Купить</a>
                         </div>
                     </div>
-                    <div className={[c.grid_item, c.grid_item_04].join(" ")}>
+                    <div className={[c.grid_item, c.grid_item_product].join(" ")}>
                         <div className={c.bg_white}>
                             <div className={c.thumb}>
                                 <img src={product} alt="Product"/>
@@ -64,7 +64,7 @@ const Content = (props) => {
                                 <p>Каждый месяц разыгрываем <br/>10 000 рублей для наших клиентов</p>
                                 <input type="mail" placeholder="Введите e-mail"/>
                             </div>
-                            <div className={c.bg_green_item}>
+                            <div className={[c.bg_green_item, c.bg_green_item_img].join(" ")}>
                                 <img src={mail} alt="Mail"/>
                             </div>
                         </div>
@@ -74,7 +74,7 @@ const Content = (props) => {
                             <div className={c.bg_green_item}>
                                 <h3>Заходите к нам</h3>
                                 <p>Более 300 магазинов <br/>по всей России</p>
-                                <a href="#" className={s.btn}>Карта магазинов</a>
+                                <a href="#" className={[s.btn, c.btn].join(" ")}>Карта магазинов</a>
                             </div>
                         </div>
                     </div>
