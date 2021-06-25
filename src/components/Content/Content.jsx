@@ -57,6 +57,7 @@ const Content = (props) => {
                             <a className={c.grid_btn} href="#">Купить</a>
                         </div>
                     </div>
+
                     <div className={[c.grid_item, c.grid_item_left].join(" ")}>
                         <div className={c.bg_green}>
                             <div className={c.bg_green_item}>
@@ -64,9 +65,7 @@ const Content = (props) => {
                                 <p>Каждый месяц разыгрываем <br/>10 000 рублей для наших клиентов</p>
                                 <input type="mail" placeholder="Введите e-mail"/>
                             </div>
-                            <div className={[c.bg_green_item, c.bg_green_item_img].join(" ")}>
-                                <img src={mail} alt="Mail"/>
-                            </div>
+                            <img className={c.bg_green_item_img} src={mail} alt="Mail"/>
                         </div>
                     </div>
                     <div className={[c.grid_item, c.grid_item_right].join(" ")}>
