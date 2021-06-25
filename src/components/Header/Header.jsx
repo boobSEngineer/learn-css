@@ -25,7 +25,7 @@ const Header = (props) => {
                             </div>
                             <div className={h.info}>
                                 <span>8 (812) 123-45-67</span>
-                                <button>Обратная связь</button>
+                                <button>Обратный звонок</button>
                             </div>
                         </div>
                     </div>
